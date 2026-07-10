@@ -1,0 +1,1 @@
+var e=new Intl.NumberFormat(`es-CL`,{style:`currency`,currency:`CLP`,maximumFractionDigits:0});function t(e){if(e==null)return`text-navy-700`;let t=Number(e);return t<0?`font-semibold text-emerald-600`:t===0?`text-navy-700`:`font-semibold text-amber-700`}function n(t){return t==null?`—`:e.format(Math.abs(Number(t)))}export{e as n,n as r,t};
