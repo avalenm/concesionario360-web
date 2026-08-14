@@ -1,0 +1,1 @@
+function e(e,t){if(!e||!t)return null;let[n,r,i]=e.slice(0,10).split(`-`).map(Number),[a,o,s]=t.slice(0,10).split(`-`).map(Number);if(!n||!a)return null;let c=Date.UTC(n,r-1,i),l=Date.UTC(a,o-1,s);return l<c?null:Math.round((l-c)/864e5)+1}export{e as t};
