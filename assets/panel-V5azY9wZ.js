@@ -1,0 +1,1 @@
+import{E as e,nt as t}from"./index-8aTtKgV-.js";var n=e(`panel`,()=>{let e=t(JSON.parse(localStorage.getItem(`blue_estacion_panel`)||`null`));function n(t){e.value=t,localStorage.setItem(`blue_estacion_panel`,JSON.stringify(t))}function r(){e.value=null,localStorage.removeItem(`blue_estacion_panel`)}return{estacion:e,seleccionar:n,limpiar:r}});export{n as t};
